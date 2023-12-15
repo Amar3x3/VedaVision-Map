@@ -28,7 +28,7 @@ function createCenterControl(map) {
   controlButton.type = "button";
   controlButton.addEventListener("click", () => {
     map.setCenter({ lat: 24.449759, lng:80.108221 });
-    map.setZoom(4.5);
+    map.setZoom(4.8);
   });
   return controlButton;
 }
