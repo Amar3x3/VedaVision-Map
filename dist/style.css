@@ -1,0 +1,54 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+    width: 70%;
+    height: 700px;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  #controlbtn {
+
+  background-color:#fff;
+    border : 2px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.3);
+    color: rgb(25,25,2);
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    line-height: 38px;
+    margin: 8px 0 22px;
+    padding: 0 5px;
+    text-align: center;
+  }
+
+  html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:ital@1&family=Source+Code+Pro:wght@500&family=Ubuntu:wght@300;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:ital@1&family=Source+Code+Pro:wght@500&family=Ubuntu:wght@300&display=swap');
+
+
+
+#map-content {
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+

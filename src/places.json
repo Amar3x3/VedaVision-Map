@@ -1,0 +1,14 @@
+{
+    "plants": [
+        {
+            "name": "Amruthaballi",
+            "location-grown": "North-eastern regions of India",
+            "coordinates": [26.2006, 92.9376] 
+        },
+        {
+            "name": "Arali",
+            "location-grown": "Himalayas, Madhya Pradesh, Uttar Pradesh,Punjab",
+            "coordinates": [28.5983, 83.931] 
+        }
+    ]
+}
