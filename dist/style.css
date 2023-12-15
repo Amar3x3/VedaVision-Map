@@ -3,10 +3,35 @@
  * that contains the map. 
  */
  #map {
-    width: 70%;
-    height: 700px;
+   margin-top: 5rem;
+    width: 80%;
+    height: 65vh;
+    box-shadow: 0px 0px 142px -39px;
+    border-radius: 36px;
   }
-  
+  .title{
+    margin: 0;
+    
+    font-size: 61px;
+  }
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 10rem;
+    box-shadow: 0px 12px 52px -14px;
+    background-color: rgb(124, 230, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-title{
+    font-size: 71px;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    color: white;
+  }
   /* 
    * Optional: Makes the sample page fill the window. 
    */
@@ -50,5 +75,12 @@
   justify-content: space-around;
   align-items: center;
   text-align: center;
+}
+#plant-location{
+  font-size: 61px;
+  margin: 0;
+}
+footer{
+  height: 200px;
 }
 
