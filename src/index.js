@@ -3,7 +3,7 @@ import data from "./places.json" assert { type: "JSON" };
 
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4.8,
+    zoom: 5.1,
     center: { lat: 22.449759, lng:80.108221 },
   });
 
@@ -28,7 +28,7 @@ function createCenterControl(map) {
   controlButton.type = "button";
   controlButton.addEventListener("click", () => {
     map.setCenter({ lat: 24.449759, lng:80.108221 });
-    map.setZoom(4.8);
+    map.setZoom(5.1);
   });
   return controlButton;
 }
