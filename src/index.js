@@ -56,10 +56,10 @@ function setSingleMarker(map) {
 
     if (place) {
       const plantName = document.getElementById("plant-name");
-      plantName.innerHTML = place.name
+      plantName.innerHTML = place.lname
 
       const location = document.getElementById("plant-location");
-      location.innerHTML = place["location-grown"]
+      location.innerHTML = place["location"]
       const circle = new google.maps.Circle({
         strokeColor: "#00FF00",
         strokeOpacity: 0.8,
@@ -67,7 +67,7 @@ function setSingleMarker(map) {
         fillColor: "#00FF00",
         fillOpacity: 0.35,
         map,
-        center: { lat: place.coordinates[0], lng: place.coordinates[1] },
+        center: { lat: place.lat, lng: place.long },
         radius: 300000, // You can adjust the radius as needed
       });
 
