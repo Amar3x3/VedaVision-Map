@@ -59,7 +59,8 @@ function setSingleMarker(map) {
       plantName.innerHTML = place.lname
 
       const location = document.getElementById("plant-location");
-      location.innerHTML = place["location"]
+      location.innerHTML = place["location"] === "India" ? "Located all over India" : place["location"]
+      const radius = place["location"] === "India" ? 1000000 : 300000
       const circle = new google.maps.Circle({
         strokeColor: "#00FF00",
         strokeOpacity: 0.8,
@@ -68,7 +69,7 @@ function setSingleMarker(map) {
         fillOpacity: 0.35,
         map,
         center: { lat: place.lat, lng: place.long },
-        radius: 300000, // You can adjust the radius as needed
+        radius: radius, // You can adjust the radius as needed
       });
 
       console.log(circle);
